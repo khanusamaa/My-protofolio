@@ -1,0 +1,497 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header1{
+    height: 70vh;
+    background-color:#353535;
+}
+
+.container{
+    width:80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2em;
+    font-size:13px;
+    color: rgb(71, 68, 68);
+}
+.navbar{
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+.navbar div{
+    
+    
+    color: white;
+    display: inline-block;
+
+}
+#navbar-value {
+    color: white;
+}
+.Orange{
+    margin-right: 0.5em;
+    color: rgb(150, 100, 9);
+}
+.navbar ul li a{
+    text-decoration:  none;
+    
+    color: rgb(129, 126, 126);
+    
+}
+.navbar ul li a:hover{
+    color: white;
+}
+
+.nav-sec2{
+    margin-left:-22em;
+}
+/* about-us section with the about-1 about-2 about-3 */
+.about-us{
+    
+    height: 70vh;
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.about-us div{
+    
+    display: inline-block;
+    box-sizing: border-box;
+    
+    
+}
+.about-1{
+    width:30%;
+    padding-top: 4em;
+    opacity: 0.9;
+    
+}
+.about-1 div{
+    display: block;
+    
+    
+}
+.about-1 .about-p p{
+    font-size: 2.6em;
+    color:#5e5e5c;
+}
+.about-1 .about-Adeel h1{
+    font-size: 3.4em;
+    width: 180%;
+    color: white;
+    z-index:-2;
+    
+    
+
+}
+.about-1 .about-horizontalline{
+    width: 46%;
+    border: 2px solid rgb(150, 100, 9);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.about-1 .about1-content p{
+    color: rgb(129, 126, 126);
+    width:88%;
+    font-size: 0.9em;
+}
+.about-3{
+    width: 25%;
+    padding-top: 3em;
+    display: flex;
+    position: relative;
+    left: -4.2em;
+    
+    
+    
+
+}
+.about-3 div{
+    
+    margin-bottom: 0.5em;
+
+}
+.about3-heading{
+    color: white;
+}
+.about3-content{
+    width: 120%;
+    color: white;
+    word-spacing: 0.05em;
+    
+}
+.show div{
+
+    color:rgb(150, 100, 9);
+    margin-right: 0.9em;
+    
+}
+.socialmedia-icon{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.socialmedia-icon div{
+    display: inline-block;
+    width: 18%;
+    border-radius: 50%;
+    padding: 0.3em 0.3em;
+    box-sizing: border-box;
+    margin-right: 0.5em;
+    text-align: center;
+    background-color: rgba(95, 90, 90, 0.274);
+    color:rgb(150, 100, 9);
+    
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    color:rgb(150, 100, 9);
+}
+.socialmedia-icon{
+    display: flex;
+}
+.about-2{
+    width:55%;
+    height:100%;  
+}
+.about-2 .about2-circle{
+    
+    border-radius: 50%;
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    
+    background-color:#222;
+    
+}
+.about2-circle img{
+    width:88%;
+    height: 100%;
+    
+    
+}
+/* My-profile-link-Accounts with the Meta Google linkedin slack */
+
+
+.my-profile-link-Accounts{
+    
+    display: flex;
+    justify-content:space-around;
+    position:relative;
+    height: 17%;
+    bottom: 20%;
+    align-items: center;
+    border-radius: 0.5%;
+    background-color:#353535;
+    box-shadow: 0.05em 0.05em rgba(44, 37, 37, 0.377);
+    
+}
+.my-profile-link-Accounts div{
+    border: 2px solid rgb(48, 44, 44);
+    display:flex;
+    padding: 0.8em;
+    width:22%;
+    height:65%;
+    border-radius: 0.2em;
+    background-color:#222;
+    
+}
+.profile-link-Accounts-Meta{
+    display: flex;
+    justify-content:center;
+}
+.profile-link-Accounts-Meta img{
+    width:40%;
+    height: 100%;
+    display: inline-block;
+    
+}
+.profile-link-Accounts-Meta p{
+    text-align: center;
+    font-size:1.2em;
+    width:40%;
+    height: 100%;
+    display: inline-block;
+    
+    color: white;
+    
+}
+.profile-link-Accounts-Google{
+display: flex;
+justify-content: center;
+}
+.profile-link-Accounts-Google img{
+    width: 120px;
+    height: 100%;
+    display:inline-block;
+
+}
+.profile-link-Accounts-Linkedin{
+    display: flex;
+    justify-content: center;
+}
+.profile-link-Accounts-Linkedin .linkedincontent{
+    width: 50%;
+    height: 100%;
+    
+    display: inline block;
+}
+.profile-link-Accounts-Linkedin .link-img{
+    width: 30%;
+    height: 100%;
+    
+    display: inline block;
+}
+.profile-link-Accounts-slack,.profile-link-Accounts-Meta,.profile-link-Accounts-Linkedin{
+    display: flex;
+    justify-content: center;
+}
+.profile-link-Accounts-slack img,.profile-link-Accounts-Linkedin img{
+    width:100px;
+    margin: 0 auto;
+    height: 100%;
+}
+.profile-link-Accounts-Meta img{
+    width:6em;
+    margin: 0 auto;
+    height: 100%;
+    width:125px;
+    display: inline-block;
+}
+.link-img img{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+}
+.linkedincontent p{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+
+
+
+/* protofolio-detail */
+
+
+.protofolio-detail{
+    
+    height: 115vh;
+   background-color:#222; 
+   box-sizing: border-box;
+   
+
+}
+
+ .detail{
+
+    
+    height: 55%;
+    display:flex;
+    justify-content: space-between;
+position: relative;
+top: 17%;
+    
+    
+
+}
+
+.protofolio-detail1,.protofolio-detail2{
+    height:100%;
+    width:45%;
+    
+    box-sizing: border-box;
+    
+
+}
+.protofolio-detail1{
+    padding-top:1.2em;
+}
+.protofolio-detail1 div{
+    
+    width: 100%;
+    
+    
+}
+#detail {
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-top: 0.8em;
+    
+}
+.about-deatil1 div{
+width:48%;
+height: 20%;
+display:  inline block;
+}
+.heading-detail1 h1{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+}
+.content-detail1 p{
+    width: 80%;
+    color: rgb(189, 177, 177);
+}
+.about-deatil1 h2{
+    color:rgb(150, 100, 9);
+    margin-top: 0.08em;
+}
+.about-deatil1 p{
+    color: rgb(189, 177, 177);
+    margin-top: 0.08em;
+}
+
+.about-detail2{
+    
+    width: 100%;
+    height: 33%;
+    display: flex;
+    
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.about-detail2-img{
+    width:80%;
+    height: 80%;
+    margin-top: 0.8em;
+    
+    display:flex;
+    justify-content: space-between;
+}
+.about-detail2-arrow{
+    width:10%;
+    height: 80%;
+    
+    display:flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    color:rgb(150, 100, 9);
+
+
+}
+.imgdt2{
+    
+    width: 55%;
+    height: 90%;
+    display: inline-block;
+}
+.imgdt2 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.contentdt{
+    margin-left: 0.8em;
+    width: 58%;
+    height: 100%;
+    display: inline-block;
+    padding-top:2em;
+
+
+}
+
+.contentdt p{
+    color: white;
+    font-size: 0.8em;
+}
+.contentdt h3{
+    color: white;
+    font-size: 1em;
+}
+.bottom{
+    height: 10vh;
+    background-color:#222;
+}
+
+.bottom-objective{
+    
+    height: 33vh;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.objective{
+display: inline-block;
+
+height:80%;
+width: 32%;
+padding-top: 0.5em;
+padding-left:1.2em;
+background-color:#353535;
+border-radius: 0.05em;
+
+}
+.objective div{
+    display: inline-block;
+    width: 14%;
+    
+    
+    padding: 0.2em;
+    background-color:#222;
+    border-radius: 50%;
+    
+    color:rgb(150, 100, 9);
+    text-align: center;
+}
+.obj{
+    width: 100%;
+    height: 100%;
+
+
+}
+.objective h1{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    font-size: 1.1em;
+    color: white;
+}
+.objective .p1{
+    color: rgb(165, 158, 158);
+    width:78%;
+    font-size: 0.9em;
+}
+.objective .p2{
+    width: 87%;
+    color: rgb(165, 158, 158);
+    font-size: 0.9em;
+
+    
+}
+.objective .p3{
+    width: 87%;
+    color: rgb(165, 158, 158);
+    font-size: 0.9em;
+    
+}
